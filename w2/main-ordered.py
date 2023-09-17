@@ -71,28 +71,38 @@ def get_sales_information(file_path: str) -> Dict:
 # batches the files based on the number of processes - split file paths into even number of batches
 # make each process have same number of files to process
 # if there are more processes than the number of files, then don't create any batches... no processes will be spawned for processing
-def batch_files(file_paths: List[str], n_processes: int) -> List[set]:
-    # if number of processes greater than the number of files given, do nothing to stop execution b/c no files to process
+def batch_files(file_paths: List[str], n_processes: int) -> List[List[int]]:
+    # If number of processes is greater than the number of files, return empty list
     if n_processes > len(file_paths):
-        return [] #### [YOUR CODE HERE] ####
+        return []
 
-    # divide number of files given over the number of processes
-    n_per_batch = len(file_paths) // n_processes #### [YOUR CODE HERE] ####
+    # Calculate how many files will be in each batch initially
+    n_per_batch = len(file_paths) // n_processes
 
+    # Calculate the leftover files after initial batches are created
+    leftovers = len(file_paths) % n_processes 
 
-    first_set_len = n_processes * n_per_batch
-    # divide file paths into processes
-    first_set = file_paths[0:first_set_len]
-    # leftovers - slice the file_paths list from first_set_len to the end of the list
-    second_set = file_paths[first_set_len:] #### [YOUR CODE HERE] ####
+    # Create batches using lists to preserve order
+    batches = []
 
-    # construct range from 0 through number of elements in n_per_batch
-    batches = [set(file_paths[i:i + n_per_batch]) for i in range(0, len(first_set), n_per_batch)]
-    for ind, each_file in enumerate(second_set):
-        #### [YOUR CODE HERE] ####
-        batches[ind].add(each_file)
+    current_file_index = 0
+    for i in range(n_processes):
+        current_batch = []
+        
+        # Add the initial files to the batch
+        for _ in range(n_per_batch):
+            current_batch.append(file_paths[current_file_index])
+            current_file_index += 1
+
+        batches.append(current_batch)
+
+    # Add leftover files to the batches sequentially
+    for i in range(leftovers):
+        batches[i].append(file_paths[current_file_index])
+        current_file_index += 1
 
     return batches
+
 
 # file_paths = 10
 # n_processes = 3
@@ -187,11 +197,8 @@ def main() -> List[Dict]:
 
     ######################################## YOUR CODE HERE ##################################################
     with multiprocessing.Pool(processes=n_processes) as pool:
-        # Wrap batches in enumberate to get the index, because batches is a set
         params = [(file_paths, n_process) for n_process, file_paths in enumerate(batches)]
-        # starmap will return a method list of results
         revenue_data = pool.starmap(run, params)
-        # we want to flatten this list
         revenue_data = flatten(revenue_data)
 
         pool.close()
@@ -209,7 +216,6 @@ def main() -> List[Dict]:
         # 2 - save plot as png
 
         # 1 - save data as JSON
-            # check output folder
         with open(os.path.join(output_save_folder, f'{yearly_data["file_name"]}.json'), 'w') as f:
             # dump dictionary into json string and write it to the file
             f.write(json.dumps(yearly_data))
@@ -218,8 +224,7 @@ def main() -> List[Dict]:
         plot_sales_data(
             yearly_revenue=yearly_data['revenue_per_region'], 
             year=yearly_data["file_name"],
-            plot_save_path=os.path.join(output_save_folder, f'{yearly_data["file_name"]}.png')
-        )
+            plot_save_path=os.path.join(output_save_folder, f'{yearly_data["file_name"]}.png'))
 
         
 
@@ -230,11 +235,11 @@ def main() -> List[Dict]:
 
 
 if __name__ == '__main__':
-    res = main()
-    n_processes = 1
+    # res = main()
     # pprint(res)
+    file_paths = list(range(9))
+    n_processes = 3
 
-    # file_paths = list(range(11))
-    # n_processes = 3
-    # batches = batch_files(file_paths, n_processes)
-    # print(batches)
+    batches = batch_files(file_paths, n_processes)
+
+    print(batches)
