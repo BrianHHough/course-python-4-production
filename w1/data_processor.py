@@ -1,6 +1,6 @@
 from typing import List
 from pprint import pprint
-from utils import Stats, DataReader
+from .utils import Stats, DataReader
 # from w1.utils import Stats, DataReader
 from tqdm import tqdm
 import os
