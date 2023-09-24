@@ -1,12 +1,12 @@
-from w2.utils.database import DB
-from w2.utils.response_model import ProcessStatus
+from utils.database import DB
+from utils.response_model import ProcessStatus
 import uuid
 from datetime import datetime
 import time
 from pprint import pprint
 
 from fastapi.testclient import TestClient
-from w2.server import app
+from server import app
 import unittest
 
 

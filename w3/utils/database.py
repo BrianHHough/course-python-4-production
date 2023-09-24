@@ -45,7 +45,22 @@ class DB:
         Read more about datatypes in Sqlite here -> https://www.sqlite.org/datatype3.html
         """
     ######################################## YOUR CODE HERE ##################################################
-
+        sql = f"""
+        create table if not exists {self._table_name}
+        (
+            process_id TEXT not null,
+            file_name TEXT default null,
+            file_path TEXT default null,
+            description  TEXT default null,
+            start_time TEXT default null,
+            end_time TEXT default null,
+            percentage TEXT default null
+        )
+        """
+        # execute statement
+        self._connection.execute(sql)
+        # commit changes to the db
+        self._connection.commit()
     ######################################## YOUR CODE HERE ##################################################
 
     def insert(self, process_id, start_time, file_name=None, file_path=None,
@@ -63,7 +78,36 @@ class DB:
         :return: None
         """
     ######################################## YOUR CODE HERE ##################################################
+        col_values = [
+            process_id, 
+            file_name, 
+            file_path, 
+            description, 
+            start_time, 
+            end_time, 
+            percentage
+        ]
 
+        sql = f"""
+        insert into {self._table_name}
+        (
+            process_id,
+            file_name,
+            file_path,
+            description,
+            start_time,
+            end_time,
+            percentage
+        )
+        values
+        (
+            ?,?,?,?,?,?,?
+        )
+        """
+        # execute statement
+        self._connection.execute(sql, col_values)
+        # commit changes to the db
+        self._connection.commit()
     ######################################## YOUR CODE HERE ##################################################
 
     def read_all(self) -> List[Dict]:
@@ -95,7 +139,15 @@ class DB:
         :return: None
         """
     ######################################## YOUR CODE HERE ##################################################
-
+        sql = f"""
+        update {self._table_name}
+        set percentage={percentage}
+        where process_id='{process_id}'
+        """
+        # execute statement
+        self._connection.execute(sql)
+        # commit changes to the db
+        self._connection.commit()
     ######################################## YOUR CODE HERE ##################################################
 
 

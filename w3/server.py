@@ -1,3 +1,6 @@
+import sys
+from pathlib import Path
+
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.responses import HTMLResponse
 from typing import List, Dict, Union
@@ -5,9 +8,9 @@ from threading import Thread
 import asyncio
 from pydantic import BaseModel
 from starlette.websockets import WebSocket, WebSocketState
-from w2.utils.websocket import ConnectionManager
-from w2.utils.response_model import ProcessStatus
-from w2.utils.database import DB
+from w3.utils.websocket import ConnectionManager
+from w3.utils.response_model import ProcessStatus
+from w3.utils.database import DB
 
 app = FastAPI()
 manager = ConnectionManager()
@@ -42,7 +45,8 @@ async def get() -> Dict:
     """
 
     ######################################## YOUR CODE HERE ##################################################
-
+    # health check endpoint to see if the server is running/alive
+    return {"status": "ok"}
     ######################################## YOUR CODE HERE ##################################################
 
 
@@ -53,7 +57,10 @@ async def get() -> HTMLResponse:
     should render the HTML file - index.html when a user goes to http://127.0.0.1:8000/
     """
     ######################################## YOUR CODE HERE ##################################################
-
+    # we are doing a routing pattern where when you arrive at the '/' route, find the index.html file and serve that
+    with open('index.html') as f:
+        html = f.read()
+    return HTMLResponse(content=html)
     ######################################## YOUR CODE HERE ##################################################
 
 
@@ -64,5 +71,12 @@ async def get() -> List[ProcessStatus]:
     Get all the records from the process table and return it using the pydantic model ProcessStatus
     """
     ######################################## YOUR CODE HERE ##################################################
-
+    # declare instance of the DB class
+    db = DB()
+    # read_all() is from from database.py
+    processes = db.read_all()
+    # we get the [ProcessStatus] above from the response_model.py file
+    # we wrap each of our processes into the array since that's the structure
+    # process is a dictionary (data type) so we spread it with ** (flatten)
+    return [ProcessStatus(**process) for process in processes]
     ######################################## YOUR CODE HERE ##################################################
