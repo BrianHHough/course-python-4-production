@@ -1,5 +1,5 @@
-from w4.logger_config import main_logger
-from w2.utils.database import DB
+from w4.logger_config import main_logger # import instance of logger class
+from w3.utils.database import DB
 import datetime
 from typing import List, Dict
 from pprint import pprint
@@ -125,6 +125,8 @@ def get_sales_information(file_path: str) -> Dict:
 
     # print stats
     dp.describe(column_names=['UnitPrice', 'TotalPrice'])
+
+    main_logger.debug("Finished sales information calculation")
 
     # return total revenue and revenue per region
     return {

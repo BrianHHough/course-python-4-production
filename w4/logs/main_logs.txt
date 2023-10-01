@@ -1,0 +1,175 @@
+2023-10-01 01:37:38,536 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 01:37:38,603 - main_logs - INFO - Inside `describe` method
+2023-10-01 01:37:38,859 - main_logs - INFO - Finished sales information calculation
+2023-10-01 01:37:38,860 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 01:37:38,965 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 01:37:39,071 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 01:37:39,142 - main_logs - INFO - Inside `describe` method
+2023-10-01 01:37:39,305 - main_logs - INFO - Finished sales information calculation
+2023-10-01 01:37:39,305 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 01:37:39,416 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 01:37:39,529 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 01:37:39,591 - main_logs - INFO - Inside `describe` method
+2023-10-01 01:37:39,738 - main_logs - INFO - Finished sales information calculation
+2023-10-01 01:37:39,738 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 01:37:39,837 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 01:37:39,940 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 01:37:39,997 - main_logs - INFO - Inside `describe` method
+2023-10-01 01:37:40,134 - main_logs - INFO - Finished sales information calculation
+2023-10-01 01:37:40,134 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 01:37:40,244 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 01:37:40,348 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 01:37:40,394 - main_logs - INFO - Inside `describe` method
+2023-10-01 01:37:40,507 - main_logs - INFO - Finished sales information calculation
+2023-10-01 01:37:40,507 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 01:37:40,583 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 01:37:40,667 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 01:37:40,717 - main_logs - INFO - Inside `describe` method
+2023-10-01 01:37:40,835 - main_logs - INFO - Finished sales information calculation
+2023-10-01 01:37:40,835 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 01:37:40,917 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 01:37:41,001 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 01:37:41,056 - main_logs - INFO - Inside `describe` method
+2023-10-01 01:37:41,180 - main_logs - INFO - Finished sales information calculation
+2023-10-01 01:37:41,181 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 01:37:41,277 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 01:43:45,815 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 01:43:45,891 - main_logs - INFO - Inside `describe` method
+2023-10-01 01:43:46,068 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 01:43:46,068 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 01:43:46,172 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 01:43:46,276 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 01:43:46,346 - main_logs - INFO - Inside `describe` method
+2023-10-01 01:43:46,507 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 01:43:46,507 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 01:43:46,620 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 01:43:46,730 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 01:43:46,791 - main_logs - INFO - Inside `describe` method
+2023-10-01 01:43:46,938 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 01:43:46,938 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 01:43:47,039 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 01:43:47,139 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 01:43:47,195 - main_logs - INFO - Inside `describe` method
+2023-10-01 01:43:47,331 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 01:43:47,331 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 01:43:47,424 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 01:43:47,520 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 01:43:47,566 - main_logs - INFO - Inside `describe` method
+2023-10-01 01:43:47,675 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 01:43:47,675 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 01:43:47,750 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 01:43:47,826 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 01:43:47,876 - main_logs - INFO - Inside `describe` method
+2023-10-01 01:43:47,994 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 01:43:47,994 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 01:43:48,075 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 01:43:48,157 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 01:43:48,212 - main_logs - INFO - Inside `describe` method
+2023-10-01 01:43:48,337 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 01:43:48,337 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 01:43:48,423 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:42:38,076 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:42:38,143 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:42:38,390 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:42:38,390 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:42:38,493 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:42:38,599 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:42:38,669 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:42:38,832 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:42:38,832 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:42:38,948 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:42:39,061 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:42:39,124 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:42:39,271 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:42:39,271 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:42:39,369 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:42:39,468 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:42:39,527 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:42:39,671 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:42:39,671 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:42:39,769 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:42:39,872 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:42:39,920 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:42:40,035 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:42:40,035 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:42:40,112 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:42:40,191 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:42:40,241 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:42:40,361 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:42:40,361 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:42:40,442 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:42:40,526 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:42:40,583 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:42:40,707 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:42:40,708 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:42:40,793 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:42:48,883 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:42:49,536 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:42:51,079 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:42:51,079 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:42:52,109 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:42:53,164 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:42:53,859 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:42:55,405 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:42:55,405 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:42:56,455 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:42:57,535 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:42:58,139 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:42:59,535 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:42:59,535 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:43:00,511 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:43:01,471 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:43:02,050 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:43:03,362 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:43:03,362 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:43:04,279 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:43:05,179 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:43:05,625 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:43:06,680 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:43:06,680 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:43:07,383 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:43:08,097 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:43:08,590 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:43:09,738 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:43:09,738 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:43:10,503 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:43:11,306 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:43:11,825 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:43:13,057 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:43:13,057 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:43:13,875 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:43:27,960 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:43:33,465 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:43:45,946 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:43:45,946 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:43:54,301 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:44:03,055 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:44:07,670 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:44:17,899 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:44:17,899 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:44:24,889 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:44:31,967 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:44:36,850 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:44:48,377 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:44:48,377 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:44:55,894 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:45:03,505 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:45:07,511 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:45:16,638 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:45:16,638 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:45:22,751 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:45:28,993 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:45:31,293 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:45:36,677 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:45:36,677 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:45:40,312 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:45:44,018 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:45:47,143 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:45:54,259 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:45:54,259 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:45:59,090 - main_logs - INFO - Inside `revenue_per_region` method
+2023-10-01 02:46:04,121 - main_logs - INFO - Inside `get_sales_information` method
+2023-10-01 02:46:08,077 - main_logs - INFO - Inside `describe` method
+2023-10-01 02:46:16,844 - main_logs - DEBUG - Finished sales information calculation
+2023-10-01 02:46:16,844 - main_logs - INFO - Inside `aggregate` method
+2023-10-01 02:46:22,651 - main_logs - INFO - Inside `revenue_per_region` method

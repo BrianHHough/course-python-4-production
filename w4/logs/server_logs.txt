@@ -1,0 +1,12 @@
+2023-10-01 02:11:05,991 - server_logs - INFO - `/health` API called
+2023-10-01 02:15:08,841 - server_logs - INFO - `/processes` API called
+2023-10-01 02:20:00,212 - server_logs - INFO - `/home` API called
+2023-10-01 02:20:00,424 - server_logs - INFO - Created a websocket connection
+2023-10-01 02:29:55,912 - server_logs - INFO - `/home` API called
+2023-10-01 02:29:55,917 - server_logs - WARNING - Client disconnected
+2023-10-01 02:29:56,046 - server_logs - INFO - Created a websocket connection
+2023-10-01 02:42:11,271 - server_logs - WARNING - Client disconnected
+2023-10-01 03:05:44,234 - server_logs - INFO - `/health` API called
+2023-10-01 03:05:44,238 - server_logs - INFO - `/processes` API called
+2023-10-01 03:08:40,329 - server_logs - INFO - `/health` API called
+2023-10-01 03:08:40,332 - server_logs - INFO - `/processes` API called
